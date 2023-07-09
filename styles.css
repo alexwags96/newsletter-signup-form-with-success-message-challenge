@@ -88,6 +88,7 @@ form input{
     border-radius: 10px;
     outline: none;
     border: 1px solid hsl(235, 18%, 26%,0.5);
+    cursor: pointer;
 }
 
 form button{
@@ -100,8 +101,88 @@ form button{
     background: hsl(234, 29%, 20%);
     color: white;
     font-weight: 700;
+    cursor: pointer;
+    transform: background-color 1s ease-in-out;
 }
 
+button:hover{
+    background: linear-gradient(to right, red, #f06d06);
+    box-shadow: 0 20px 10px rgba(219, 92, 7, 0.2) ;
+}
+
+
+
+.error{
+    position: relative;
+}
+
+.error p{
+    position: absolute;
+ visibility: visible;
+ top: 0;
+ right: 0;
+ color: red;
+}
+
+.error input{
+    background: hsl(4, 100%, 67%,0.25);
+    color: hsl(4, 100%, 67%);
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+
+
+.success p{
+    position: absolute;
+ visibility: hidden;
+ top: 0;
+ right: 0;
+}
+
+.sign-up-success{
+    width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+}
+
+.sign-up-success img{
+    align-self: flex-start;
+    margin: 10px 20px;
+    height: 50px;
+}
+
+.btn{
+
+    width: 375px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding: 10px; 
+     align-self: center;
+    margin: 10px 20px ;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transform: background-color 1s ease-in-out;    
+}
+
+.description span{
+    font-weight: 700;
+}
 
 @media screen and (min-width: 748px) {
     .sign-up-container{
@@ -122,4 +203,6 @@ form button{
     .main{
         margin-top: 50px;
     }
+
+    
 }
