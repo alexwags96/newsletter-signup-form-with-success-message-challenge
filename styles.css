@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; ;
+}
+
+body{
+    min-height: 100vh;
+    background: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container{
+    width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+}
+
+.sign-up-image{
+    
+    overflow: hidden;
+}
+
+.sign-up-image img{
+    object-fit: cover;
+}
+
+.title{
+    color: hsl(235, 18%, 26%);
+    font-weight: 700;
+    align-self: flex-start;
+    padding: 0 20px;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+p{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: hsl(235, 18%, 26%);
+}
+.list{
+    padding: 0 20px;
+}
+
+li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    color: hsl(235, 18%, 26%);
+    /* gap: 10px; */
+}
+
+li p{
+    padding: 0 10px;
+}
+
+form{
+    width: 375px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form label{
+    align-self: flex-start;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid hsl(235, 18%, 26%,0.5);
+}
+
+form button{
+    width: 100%;
+    padding: 10px; 
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+}
+
