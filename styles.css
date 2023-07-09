@@ -102,3 +102,24 @@ form button{
     font-weight: 700;
 }
 
+
+@media screen and (min-width: 748px) {
+    .sign-up-container{
+        width: 750px;
+        /* height: 500px; */
+        min-height: 500px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 20px;
+        /* background: hsl(0, 0%, 100%); */
+    }
+    .sign-up-image{
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .main{
+        margin-top: 50px;
+    }
+}
