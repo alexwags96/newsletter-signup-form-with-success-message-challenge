@@ -15,7 +15,6 @@ form.addEventListener('submit',(e)=>{
         form.classList.add('success')
         form.submit();
     }
-    console.log(ValidateEmail(inputEmail));
 
 });
 

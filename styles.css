@@ -141,6 +141,7 @@ button:hover{
 
 .sign-up-success{
     width: 375px;
+    padding-top: 100px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -161,6 +162,12 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+}
+
+.btn a:hover{
+    background: linear-gradient(to right, red, #f06d06);
+    box-shadow: 0 20px 10px rgba(219, 92, 7, 0.2) ;
 }
 .btn a{
     width: 100%;
@@ -195,13 +202,30 @@ button:hover{
         align-items: flex-start;
         border-radius: 20px;
         /* background: hsl(0, 0%, 100%); */
+        
     }
+    
+    .sign-up-success {
+        width: 375px;
+        padding: 30px;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: hsl(0, 0%, 100%);
+        border-radius: 20px}
+
     .sign-up-image{
         border-radius: 20px;
         margin: 20px;
     }
     .main{
         margin-top: 50px;
+    }
+
+    .btn a{
+        margin: 40px 20px ;
     }
 
     
